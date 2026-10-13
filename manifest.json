@@ -1,0 +1,8 @@
+{
+  "type": "plugin",
+  "runner": "node",
+  "owner": "hoonowng",
+  "name": "rea-mcp",
+  "revision": 1,
+  "description": "Reverse engineer anything with REA. Exposes REA's MCP tools (static JS/Electron, .NET, EVM, web, binaries, runtime) inside LM Studio."
+}

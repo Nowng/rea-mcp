@@ -1,0 +1,23 @@
+{
+  "name": "rea-mcp",
+  "version": "0.1.0",
+  "description": "LM Studio Plugin that exposes REA (https://github.com/morluto/rea) reverse-engineering MCP tools. A lightweight TypeScript wrapper; the original REA source tree is cloned into ./REA and left unchanged so it can be updated with git pull.",
+  "author": "hoonowng",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "postinstall": "node scripts/setup.cjs"
+  },
+  "dependencies": {
+    "@lmstudio/sdk": "^2.0.0",
+    "zod": "^3.22.4",
+    "json-schema-to-zod": "^2.8.1",
+    "@modelcontextprotocol/client": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
